@@ -2,7 +2,7 @@
 // Database connection details
 $servername = "localhost";
 $username = "root";  // Change if using a different user
-$password = "";      // Change if you have a password
+$password = "12345";      // Change if you have a password
 $dbname = "user_lists"; // Replace with your actual database name
 
 // Create connection
