@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  python_app:
+    build:
+      context: .  # Use the current directory (Jenkins workspace)
+    ports:
+      - "9000:8000"
+    restart: always
